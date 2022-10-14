@@ -30,11 +30,11 @@ public class Main {
             int i=Math.min(index,aLength);
             for(int j=Math.min(i,bLength);j<=Math.min(index+1,bLength);j++)
             {
-                String substringA = a.substring(0,i);
-                String substringB = b.substring(bLength-j,bLength);
-                String newValue=substringA + substringB;
-                if(!names.containsValue(newValue))
-                    return newValue;
+                StringBuilder newValue = new StringBuilder();
+                newValue.append(a, 0, i);
+                newValue.append(b, bLength-j, bLength);
+                if(!names.containsValue(newValue.toString()))
+                    return newValue.toString();
             }
         }
         return combineNames(a+b,a+b);
@@ -84,7 +84,9 @@ public class Main {
                     }
                     else name2=names.get(j);
                     Objects.requireNonNull(name2);
-                    names.put(i*j,combineNames(name1,name2));
+                    if(names.containsValue(name1))
+                        names.put(i*j,combineNames(name1,name2));
+                    else names.put(i*j,name1);
                     sieve.remove(i*j);
                 }
             }
