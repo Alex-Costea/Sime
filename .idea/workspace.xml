@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fa33160-fded-4e5c-886f-7db63e6887df" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="6fa33160-fded-4e5c-886f-7db63e6887df" name="Changes" comment="auto-generate 11 &amp; 12">
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,8 +58,23 @@
       <workItem from="1665600837532" duration="6822000" />
       <workItem from="1665610794394" duration="300000" />
       <workItem from="1665611840807" duration="257000" />
-      <workItem from="1665731380041" duration="2540000" />
+      <workItem from="1665731380041" duration="2840000" />
     </task>
+    <task id="LOCAL-00001" summary="improvements">
+      <created>1665744782854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665744782854</updated>
+    </task>
+    <task id="LOCAL-00002" summary="auto-generate 11 &amp; 12">
+      <created>1665744933051</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665744933051</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,5 +90,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="improvements" />
+    <MESSAGE value="auto-generate 11 &amp; 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="auto-generate 11 &amp; 12" />
   </component>
 </project>
