@@ -17,8 +17,6 @@ public class Main {
         names.put(8,"eight");
         names.put(9,"nine");
         names.put(10,"ten");
-        names.put(11,"eleven");
-        names.put(12,"twelve");
     }
 
     private static String combineNames(String a,String b)
@@ -47,8 +45,7 @@ public class Main {
         sieve.add(3);
         sieve.add(5);
         sieve.add(7);
-        sieve.add(11);
-        int k=5;
+        int k=4;
         for(int i=11;i<=max*max/4;i++)
             sieve.add(i);
         for(int sum=1;sum<=max;sum++)
