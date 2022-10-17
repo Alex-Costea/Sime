@@ -17,6 +17,8 @@ public class Main {
         names.put(8,"eight");
         names.put(9,"nine");
         names.put(10,"ten");
+        names.put(11,"eleven");
+        names.put(12,"dozen");
     }
 
     private static String combineNames(String a,String b)
@@ -39,13 +41,14 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int max=100;
+        int max=200;
         LinkedHashSet<Integer> sieve=new LinkedHashSet<>();
         sieve.add(2);
         sieve.add(3);
         sieve.add(5);
         sieve.add(7);
-        int k=4;
+        sieve.add(11);
+        int k=5;
         for(int i=11;i<=max*max/4;i++)
             sieve.add(i);
         for(int sum=1;sum<=max;sum++)
